@@ -1,0 +1,28 @@
+
+/*general classes*/
+.cursor-pointer {
+    cursor: pointer;
+}
+/*custom css*/
+.read-csv {
+    padding: 20px;
+}
+.read-csv.form-control {
+    line-height: 1;
+}
+.form-control::-webkit-file-upload-button {
+    display: none;
+}
+.modal-add-new-data .modal {
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+}
+.csv-chart {
+    height: 300px;
+}
+.read-csv .btn-outline-primary:hover a{
+    color: #ffffff;
+}
+.input-group-label {
+    width: 120px;
+}
