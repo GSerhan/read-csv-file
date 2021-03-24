@@ -4,8 +4,8 @@ const initialState = {
     showModalAddData: false,
     mockups: {
         genderOptions: [
-            { value: 'male', label: 'Male' },
-            { value: 'female', label: 'Female' },
+            { value: 'Male', label: 'Male' },
+            { value: 'Female', label: 'Female' },
         ],
         raceOptions: [
             {value: '10k', label: '10k'},
@@ -19,9 +19,9 @@ const initialState = {
             {value: 'M35', label: 'M35'}
         ],
         registrationStatusOptions: [
-            {value: 'new', label: 'New'},
-            {value: 'confirmed', label: 'Confirmed'},
-            {value: 'canceled', label: 'Canceled'},
+            {value: 'New', label: 'New'},
+            {value: 'Confirmed', label: 'Confirmed'},
+            {value: 'Canceled', label: 'Canceled'},
         ]
     }
 
@@ -48,7 +48,5 @@ const importCsvReducer = (state = initialState, action) => {
             return state;
     }
 };
-
-
 
 export default importCsvReducer;

@@ -86,6 +86,8 @@ const AddNewDataToCsv = props => {
             case 'lastName':
                 setLastName(value.input);
                 break;
+            default:
+                return null
         }
     };
 
